@@ -1,0 +1,14 @@
+stack/*
+.config/BraveSoftware/
+.config/autostart/
+.config/coc/
+.config/configstore/
+.config/dconf/
+.config/google-chrome/
+.config/htop/
+.config/i3/
+.config/lbry/
+.config/menus/
+.config/nvim/.netrwhist
+.config/pavucontrol.ini
+.config/pulse/
