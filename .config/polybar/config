@@ -29,8 +29,7 @@ format-margin     =
 format-offset     =
 
 [bar/mybar]
-monitor = HDMI1
-monitor-fallback = eDP1
+monitor = ${env:MONITOR:}
 font-0 = Siji:style=Regular:size=11
 font-1 = IBM Plex Mono:style=Regular:size=11
 font-2 = Unifont:size=11

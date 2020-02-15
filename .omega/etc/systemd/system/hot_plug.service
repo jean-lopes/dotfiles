@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitor hotplug
+
+[Service]
+Type=simple
+RemainAfterExit=no
+User=jean
+ExecStart=/etc/udev/scripts/hdmi
+
+[Install]
+WantedBy=multi-user.target
