@@ -23,9 +23,10 @@ RPROMPT=\$vcs_info_msg_0_
 #zstyle ':vcs_info:git:*' formats '%b'
 
 alias ls='ls --color=auto'
+alias mkpkg='makepkg --clean --rmdeps --syncdeps --install'
 
 source $HOME/.profile
 
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%1~%{$fg[red]%}]%{$reset_color%}$%b "
 
 source /home/jean/github/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
